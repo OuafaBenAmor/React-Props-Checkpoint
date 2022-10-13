@@ -1,0 +1,29 @@
+.App {
+  text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  margin-top: 2vh;
+  color: rgb(193, 232, 246);
+  background: #026390;
+  padding: 10vh;
+  font-size: calc(1px + 2vmin);
+  text-align: justify;
+  text-shadow: black;
+  opacity: 0.8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
